@@ -1,37 +1,129 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+<head>
+<title>Our Manue</title>
+<style>
 
-You can use the [editor on GitHub](https://github.com/mswarraich10/mod2/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+ *{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ }
+ body{
+  position: relative;;
+ }
+h1{
+  margin-bottom: 50px;
+  text-align: center;
+  size: 50%;
+  color: #6e6e6e;
+}
+ #containor{
+  position: relative;
+  padding: 0;
+  border: 0;
+  margin: 0;
+ }
+  #p1{
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+  color: tomato red;
+  }
+  #p12{
+    position: absolute;
+    top:0;
+    left: 65;
+    clear: left;
+  }
 
-### Markdown
+  #p11{
+    float: right
+    margin-bottom: 10px;
+    top: 0;
+    left: 0;
+    height: 30px;
+    width: 100px;
+    background-color: brown;
+    border: 2px solid black;
+    position: relative;
+  }
+  #p1{
+ //   float: left;
+   position: relative;
+    padding: 0px 0px 0px 0px;
+    background-color: grey;
+    border: 2px solid black;
+    width: 30%;
+    margin: 20px;
+    height: 180px;
+  }
+    #p2{
+   // padding: 6px 6px 6px 6px;
+    background-color: grey;
+    border: 2px solid black;
+    width: 30%;
+    height: 180px;
+    margin: 20px;
+    position: relative;
+  }
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+   #p3{
+    background-color: grey;
+    border: 2px solid black;
+    width: 30%;
+    height: 180px;
+     margin: 20px;
+    position: relative;
+  }
+@media(min-width: 992px) {
+ 
+  #p1{
+    width: 30%''
+  }
+    #p2{
+    width: 30%;
+  }
 
-```markdown
-Syntax highlighted code block
+   #p3{
+    width: 30%;
+  }
 
-# Header 1
-## Header 2
-### Header 3
+}
 
-- Bulleted
-- List
+@media(min-width: 768px) and (max-width: 991px){
+  #p1{
+    width: 40%''
+  }
+    #p2{
+    width: 40%;
+  }
 
-1. Numbered
-2. List
+   #p3{
+    width: 100%;
+  }
 
-**Bold** and _Italic_ and `Code` text
+}
 
-[Link](url) and ![Image](src)
-```
+}
+section{
+  clear: left;
+}
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+</style>
+</head>
 
-### Jekyll Themes
+<body>
+ <h1>Our Menu</h1>
+<div id="containor">
+<div id="p1">
+  <p id="p11">Chicken</p>
+  <p id="p12">Text messaging, or texting, is the act of composing and sending electronic messages, typically consisting of alphabetic and numeric characters, between two or more users of mobile devices, desktops/laptops, or other type of compatible computer</p>
+</div>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mswarraich10/mod2/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+<div id="p2"> <p id="p11">Chicken</p>
+  <p id="p12">Text messaging, or texting, is the act of composing and sending electronic messages, typically consisting of alphabetic and numeric characters, between two or more users of mobile devices, desktops/laptops, or other type of compatible computer s,</p></div>
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<div id="p3"> <p id="p11">Chicken</p>
+  <p id="p12">Text messaging, or texting, is the act of composing and sending electronic messages, typically consisting of alphabetic and numeric characters, between two or more users of mobile devices, desktops/laptops, or other type of compatible computer s, or other type of compatible computer</p></div>
+</div>
+</body>
+</html>
